@@ -1,0 +1,68 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+.card-template{
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5rem;
+    border: 1px solid;
+    align-items: center;
+}
+.login.grid{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.ing-correo{
+    width: max-content;
+    padding: 1rem;
+    grid-column: 1/1;
+    grid-row: 1/5;
+}
+
+.ing-contra{
+    width: max-content;
+    padding: 1rem;
+    grid-column: 1/1;
+    grid-row: 2/5;
+}
+
+.button{
+    width: max-content;
+    grid-column: 1/1;
+    grid-row: 3/5;
+}
+
+.registro{
+    width: max-content;
+    grid-column: 1/1;
+    grid-row: 4/5;
+}
+
+.rec-paswd{
+    width: max-content;
+    padding: 1rem;
+    grid-column: 1/1;
+    grid-row: 5/5;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: var(--gap);
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: var(--max-width);
+}
+
